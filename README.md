@@ -1,5 +1,7 @@
-# xixyxixy
-
+# Решение определенного интеграла показательной и степенной функции
+## Язык программирования C#
+### Код 
+```c#
 public string Degree { get; set; }= "";
 public string Base { get; set; }= "";
 
@@ -33,3 +35,6 @@ public double InvalidOperationException(string v)
 {
 	throw new NotImplementedException();
 }
+
+```
+
