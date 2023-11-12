@@ -79,3 +79,15 @@ public double InvalidOperationException(string v)
 	}
    ```  
 
+###### Класс InvalidOperationException
+	```c#
+	public double InvalidOperationException(string v)
+	{
+		throw new NotImplementedException();
+	}
+   	``` 
+>Тут должна быть цитата
+>И тут тоже
+>> И тут
+
+Картинка взята с сайта :  http://ru.solverbook.com/spravochnik/integraly/integral-pokazatelnoj-funkcii/
