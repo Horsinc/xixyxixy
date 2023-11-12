@@ -62,6 +62,7 @@ public double InvalidOperationException(string v)
     Переменной basee присваивается значение Base с конвертацией в тип данных double  
     `double basee = Convert.ToDouble(Base);`  
     Далее вывод по формуле
+
     ![Локальное изображение](pokazatelnaya-funktsiya-1.png "Всплывающая подсказка")
 
     `return ((Math.Pow(basee, a) / Math.Log(basee)) - ((Math.Pow(basee, b) / Math.Log(basee))));`
