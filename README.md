@@ -42,8 +42,8 @@ public double InvalidOperationException(string v)
 #### Объяснение переменных
 
 ***Degree*** - степень (*Глобальная переменная. Тип данных string*)  
-**Base** - ~~степень~~ основание (*Глобальная переменная. Тип данных string*)
-*a* - нижний предел интегрирования (*Тип данных double*)
+**Base** - ~~степень~~ основание (*Глобальная переменная. Тип данных string*)  
+*a* - нижний предел интегрирования (*Тип данных double*)  
 *b* - верхний предел интегрирования (*Тип данных double*)
 
 ##### Разбор кода
@@ -80,12 +80,12 @@ public double InvalidOperationException(string v)
    ```  
 
 ###### Класс InvalidOperationException
-	```c#
+```c#
 	public double InvalidOperationException(string v)
 	{
 		throw new NotImplementedException();
 	}
-   	``` 
+``` 
 >Тут должна быть цитата
 >И тут тоже
 >> И тут
