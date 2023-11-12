@@ -63,7 +63,18 @@ public double InvalidOperationException(string v)
     `double basee = Convert.ToDouble(Base);`  
     Далее вывод по формуле
     ![Локальное изображение](pokazatelnaya-funktsiya-1.png "Всплывающая подсказка")
+
+    `return ((Math.Pow(basee, a) / Math.Log(basee)) - ((Math.Pow(basee, b) / Math.Log(basee))));`
     
     1. Подпункт 2.1. Если нет - пропуск
-1. Проверка на степенную функцию
+1. Иначе
+    1. Переменной deg присваивается значение Base с конвертацией в тип данных double
+    1. Если deg == -1, вывод ошибки
+    1. Иначе возврат знаяения по формуле
+   ```c#
+   if((Degree == "")||(Base == ""))
+	{
+		return ((Math.Pow(a, deg + 1) / (deg + 1) - ((Math.Pow(b, deg + 1) / (deg + 1)))));
+	}
+   ```  
 
