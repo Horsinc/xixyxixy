@@ -60,8 +60,9 @@ public double InvalidOperationException(string v)
 1. Проверка на показательную функцию
     1. Если да, то:  
     Переменной basee присваивается значение Base с конвертацией в тип данных double  
-    `double basee = Convert.ToDouble(Base);`
+    `double basee = Convert.ToDouble(Base);`  
     Далее вывод по формуле
+    ![Локальное изображение](pokazatelnaya-funktsiya-1.png "Всплывающая подсказка")
     
     1. Подпункт 2.1. Если нет - пропуск
 1. Проверка на степенную функцию
